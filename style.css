@@ -68,10 +68,7 @@ a{
   /* flex-wrap: 150px; */
 }
 
-.image{
-  max-width: 100%;
-  height: auto;
-}
+
 
 .second-container{
   padding: 25px 10%;
@@ -105,6 +102,11 @@ a{
   align-items: center;
   gap: 8px
 
+}
+
+.header-image{
+  max-width: 100%;
+  height: auto;
 }
 
 .information-text p{
@@ -171,5 +173,9 @@ a{
     flex-direction: column;
   }
 
+  .header-image{
+    width: 50%;
+    height: auto;
+  }
 
 }
