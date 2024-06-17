@@ -171,6 +171,7 @@ a{
   }
   .inside-first-container{
     flex-direction: column;
+    align-items: center;
   }
 
   .header-image{
